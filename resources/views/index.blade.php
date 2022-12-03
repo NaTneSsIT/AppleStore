@@ -10,7 +10,6 @@
                       <div class="row">
                           <div class="col-xl-5 col-lg-7 col-md-8">
                               <div class="hero__text">
-
                                   <h6>{{$image_banner->header}}</h6>
                                   <h2>{{$image_banner->title}}</h2>
                                   <p>{{$image_banner->content}}</p>
@@ -198,6 +197,35 @@
     </div>
 </section>
 <!-- Categories Section End -->
+
+<!-- Instagram Section Begin -->
+<section class="instagram spad" style="margin-bottom: 200px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="instagram__pic">
+                    @foreach($product_price_max as $product)
+{{--                        <div class="instagram__pic__item set-bg" data-setbg="{{asset("img/image-product/".$product->image)}}"></div>--}}
+                        <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-1.jpg"></div>
+                    @endforeach
+                    {{--<div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-2.jpg"></div>
+                    <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-3.jpg"></div>
+                    <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-4.jpg"></div>
+                    <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-5.jpg"></div>
+                    <div class="instagram__pic__item set-bg" data-setbg="img/instagram/instagram-6.jpg"></div>--}}
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="instagram__text">
+                    <h2>Instagram</h2>
+                    <h5>Mọi người đều có một câu chuyện để kể</h5>
+                    <h3>#Apple_Store</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Instagram Section End -->
 
 <!-- Latest Blog Section Begin -->
 {{--<section class="latest spad">--}}

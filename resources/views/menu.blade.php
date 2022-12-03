@@ -155,7 +155,7 @@
             <div class="col-lg-12 text-center">
                 <div class="footer__copyright__text">
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    <p>Bản quyền thuộc nhóm 02 Lập trình PHP
+                    <p>Bản quyền thuộc nhóm 02 PMMNM
                     </p>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </div>
