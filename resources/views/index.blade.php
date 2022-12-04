@@ -45,7 +45,7 @@
                         </div>
                         <div class="banner__item__text">
                             <h2>{{$images_top_3_best_sell[0]->name}}</h2>
-                            <a href="{{route('details',parameters:['id'=>$images_top_3_best_sell[0]->id])}}">Mua ngay</a>
+{{--                            <a href="{{route('details',parameters:['id'=>$images_top_3_best_sell[0]->id])}}">Mua ngay</a>--}}
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                         </div>
                         <div class="banner__item__text">
                             <h2>{{$images_top_3_best_sell[1]->name}}</h2>
-                            <a href="{{route('details',parameters:['id'=>$images_top_3_best_sell[1]->id])}}">Mua ngay</a>
+{{--                            <a href="{{route('details',parameters:['id'=>$images_top_3_best_sell[1]->id])}}">Mua ngay</a>--}}
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                         </div>
                         <div class="banner__item__text">
                             <h2>{{$images_top_3_best_sell[2]->name}}</h2>
-                            <a href="{{route('details',parameters:['id'=>$images_top_3_best_sell[2]->id])}}">Mua ngày</a>
+{{--                            <a href="{{route('details',parameters:['id'=>$images_top_3_best_sell[2]->id])}}">Mua ngày</a>--}}
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
             @foreach($product_new_arrivals as $product)
                 <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix   new-arrivals ">
                     <div class="product__item sale">
-                        <a href="{{route('details',parameters:['id'=>$product->id])}}">
+{{--                        <a href="{{route('details',parameters:['id'=>$product->id])}}">--}}
                             <div  class="product__item__pic set-bg" data-setbg="{{$product->get_url_image()}}">
                                 <span class="label"> Mới </span>
                             </div>
@@ -135,7 +135,7 @@
             @foreach($product_hot_sales as $product)
                 <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix   hot-sales ">
                     <div class="product__item sale">
-                        <a href="{{route('details',parameters:['id'=>$product->id])}}">
+{{--                        <a href="{{route('details',parameters:['id'=>$product->id])}}">--}}
                             <div  class="product__item__pic set-bg" data-setbg="{{$product->get_url_image()}}">
                                 <span class="label"> Khuyến mãi </span>
                             </div>
@@ -190,7 +190,7 @@
                             <p>Giây</p>
                         </div>
                     </div>
-                    <a href="{{route('details',parameters:['id'=>$product_sell_time->id])}}" class="primary-btn">Mua ngay</a>
+{{--                    <a href="{{route('details',parameters:['id'=>$product_sell_time->id])}}" class="primary-btn">Mua ngay</a>--}}
                 </div>
             </div>
         </div>

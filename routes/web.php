@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ShopController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',
     action : [HomeController::class,'index']
 )->name('home');
+Route::get('/shop',
+    action : [ShopController::class,'index'])->name('shop');
