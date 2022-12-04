@@ -62,3 +62,5 @@ Route::get('/order-bill-detail',
 
 Route::get('/order-bill-destroy',
     action : [OrderController::class,'destroy'])->name('order-bill-destroy');
+Route::get('/contacts',
+    action : [ContactsController::class,'index'])->name('contacts');
