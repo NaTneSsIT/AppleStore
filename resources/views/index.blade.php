@@ -45,7 +45,7 @@
                         </div>
                         <div class="banner__item__text">
                             <h2>{{$images_top_3_best_sell[0]->name}}</h2>
-                            <a href="{{route('details',parameters:['id'=>$images_top_3_best_sell[0]->id])}}">Mua ngay</a>
+{{--                            <a href="{{route('details',parameters:['id'=>$images_top_3_best_sell[0]->id])}}">Mua ngay</a>--}}
                         </div>
                     </div>
                 </div>
