@@ -23,3 +23,42 @@ Route::get('/shop',
     action : [ShopController::class,'index'])->name('shop');
 Route::get('/details',
     action : [ProductDetailsController::class,'index'])->name('details');
+
+    // Cart controller
+Route::get('/cart',
+action : [CartController::class,'index'])->name('cart');
+
+Route::get('/add-to-cart',
+action : [CartController::class,'add_to_cart'])->name('add_to_cart');
+
+Route::get('/update-to-cart',
+action : [CartController::class,'update_to_cart'])->name('update_to_cart');
+
+Route::get('/remove_to_cart',
+action : [CartController::class,'remove_to_cart'])->name('remove_to_cart');
+
+//cart order controller
+Route::get('/checkout',
+    action : [CheckoutController::class,'index'])->name('checkout');
+
+Route::post('/order',
+    action : [CheckoutController::class,'addOrder'])->name('addOrder');
+
+//cart order controller
+Route::get('/checkout',
+    action : [CheckoutController::class,'index'])->name('checkout');
+
+Route::post('/order',
+    action : [CheckoutController::class,'addOrder'])->name('addOrder');
+
+
+
+//order list
+Route::get('/order',
+    action : [OrderController::class,'index'])->name('order-list');
+
+Route::get('/order-bill-detail',
+    action : [OrderController::class,'view'])->name('order-bill-detail');
+
+Route::get('/order-bill-destroy',
+    action : [OrderController::class,'destroy'])->name('order-bill-destroy');
