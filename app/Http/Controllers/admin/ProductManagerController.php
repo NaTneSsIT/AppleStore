@@ -152,12 +152,12 @@ class ProductManagerController extends Controller
                 'categories' =>$categories,
                 'product_infor' =>$product_infor,
                 'product_images'=>$product_images
-                ]);
+            ]);
         }
     }
 
 
-    public function update(Request $request)
+    public function update(Request $request, $id)
     {
         $data = Product::find($id);
         $data->name = $request->name;

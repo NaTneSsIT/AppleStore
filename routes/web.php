@@ -123,7 +123,7 @@ Route::post('/admin-product-store',
 Route::get('/admin-product-delete',
     action : [ProductManagerController::class,'delete'])->name('admin-product-delete');
 
-Route::get('/admin-product-update',
+Route::post('/admin-product-update/{id}',
     action : [ProductManagerController::class,'update'])->name('admin-product-update');
 
 Route::get('/admin-product-edit',
